@@ -5,7 +5,7 @@
     "description": "React is my new world",
     "image": "profilepic.jpg",
     "bio": "Hi there! I am Denis! You might also know me as D_Kathuri. I've been coding for over 3 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+    "contactmessage": "Get in touch with me to be a part of the LUNAR fam!",
     "email": "deniswachira77@gmail.com",
     "phone": "+254745086753",
     "address": {
@@ -37,6 +37,16 @@
         "name": "github",
         "url": "https://github.com/deniswachira",
         "className": "fa fa-github"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/deniswachira_",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UCGZUC4OY35P2pPCBZZLTLuA",
+        "className": "fa fa-youtube"
       }
     ]
   },
@@ -46,8 +56,8 @@
       {
         "school": "Kirinyaga University",
         "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2024",
-        "description": "Graduated with First Class Honours"
+        "graduated": "Update",
+        "description": "Graduating in the year 2023"
       },
       {
         "school": "Aberdare Institute of Business and Catering",
@@ -58,10 +68,10 @@
     ],
     "work": [
       {
-        "company": "DK_Technologies",
-        "title": "Founder and CEO",
+        "company": "Lunar Tech Solution",
+        "title": "Web Developer",
         "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "description": "Cloning all the apps possible. On the way to clone the world! Building the LUNAR Fam as large as possible."
       }
     ],
     "skills": [
@@ -82,7 +92,12 @@
         "level": "80%"
       },
       {
-        "name": "Web Development",
+        "name": "HTML & CSS",
+        "level": "95%"
+      }
+      ,
+      {
+        "name": "SQL",
         "level": "95%"
       }
     ]
@@ -102,8 +117,8 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Denisis absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
+        "text": "Denis is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+        "user": "Joe Macharia"
       },
       {
         "text": "Learning with Denis has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
