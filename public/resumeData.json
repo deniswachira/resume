@@ -1,0 +1,114 @@
+{
+  "main": {
+    "name": "Denis Wachira",
+    "occupation": "web dev",
+    "description": "React is my new world",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Denis! You might also know me as D_Kathuri. I've been coding for over 3 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
+    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+    "email": "deniswachira77@gmail.com",
+    "phone": "+254745086753",
+    "address": {
+      "street": "kianjogu",
+      "city": "kagio",
+      "state": "kirinyaga",
+      "zip": "1 0306 (or 10306)"
+    },
+    "website": "https://www.papareact.com/course",
+    "resumedownload": "http://papareact.com",
+    "social": [
+     
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/kelcho.spense",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kevin-comba-152b06227/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/kelcho_spense/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/kelcho-spense",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Kirinyaga University",
+        "degree": "Bachelor's Degree, Computer Science",
+        "graduated": "July 2023",
+        "description": "Graduated with First Class Honours"
+      },
+      {
+        "school": "Bridge College",
+        "degree": "Diploma in  Computer Engineering",
+        "graduated": "December 2018",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "work": [
+      {
+        "company": "kelcho",
+        "title": "Founder and CEO",
+        "years": "May 2019 - Present",
+        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "Dotnet",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "80%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      
+      {
+        "title": "Covid-19-Tracker(React + Firebase)",
+        "category": "SPR",
+        "image": "covid19tracker.png",
+        "url": "https://covid-19-tracker-1d3c3.web.app/"
+      }   
+      
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Kevin is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+        "user": "Jorge Fouto"
+      },
+      {
+        "text": "Learning with Kevin has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+        "user": "Adam Curtis"
+      }
+    ]
+  }
+}
