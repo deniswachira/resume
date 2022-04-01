@@ -110,8 +110,13 @@
         "category": "SPR",
         "image": "covid19tracker.png",
         "url": "https://covid-19-tracker-75e50.web.app/"
-      }   
-      
+      },   
+      {
+        "title": "Mdern-Real-Estate(NextJS + Rapid APIs)",
+        "category": "SPR",
+        "image": "modern-real-estate.png",
+        "url": "https://modern-real-estate-app-five.vercel.app/"
+      }
     ]
   },
   "testimonials": {
