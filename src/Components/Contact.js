@@ -1,32 +1,22 @@
-import React, { useState } from "react";
+import emailjs from "emailjs-com";
+import { useState } from "react";
+import { useRef } from "react";
 
-const Contact = ({ data }) => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+const Contact = () => { 
+const formRef = useRef();
+const [done, setDone] = useState(false)
+const handleSubmit = (e) => {
+  e.preventDefault();
 
-  if (data) {
-    var contactName = data.name;
-    var street = data.address.street;
-    var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
-    var phone = data.phone;
-    var contactEmail = data.email;
-    var contactMessage = data.contactmessage;
-  }
-
-  const submitForm = () => {
-    window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
-    );
-  };
-
+  emailjs.sendForm('service_nt4yi8l', 'template_4qwtpkm', formRef.current, 'NWuZWqUX3JfozkOPW')
+      .then((result) => {
+          console.log(result.text);
+          setDone(true);
+      }, (error) => {
+          console.log(error.text);
+      });
+  
+}
   return (
     <section id="contact">
       <div className="row section-head">
@@ -37,55 +27,32 @@ const Contact = ({ data }) => {
         </div>
 
         <div className="ten columns">
-          <p className="lead">{contactMessage}</p>
+          <p className="lead"></p>
         </div>
       </div>
 
       <div className="row">
         <div className="eight columns">
-          <form onSubmit={submitForm}>
+          <form  ref={formRef} onSubmit= {handleSubmit}>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
                   Name <span className="required">*</span>
                 </label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={name}
-                  size="35"
-                  id="contactName"
-                  name="contactName"
-                  onChange={(e) => setName(e.target.value)}
-                />
+                <input type="text" name="contactName"                />
               </div>
 
               <div>
                 <label htmlFor="contactEmail">
                   Email <span className="required">*</span>
                 </label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={email}
-                  size="35"
-                  id="contactEmail"
-                  name="contactEmail"
-                  onChange={(e) => setEmail(e.target.value)}
+                <input  type="text" name="contactEmail"
                 />
               </div>
-
               <div>
                 <label htmlFor="contactSubject">Subject</label>
                 <input
-                  type="text"
-                  defaultValue=""
-                  value={subject}
-                  size="35"
-                  id="contactSubject"
-                  name="contactSubject"
-                  onChange={(e) => setSubject(e.target.value)}
-                />
+                  type="text"  name="contactSubject" />
               </div>
 
               <div>
@@ -94,18 +61,14 @@ const Contact = ({ data }) => {
                 </label>
                 <textarea
                   cols="50"
-                  rows="15"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                  id="contactMessage"
+                  rows="15"                 
                   name="contactMessage"
                 ></textarea>
               </div>
 
               <div>
-                <button onClick={submitForm} type="submit" className="submit">
-                  Submit
-                </button>
+                <button >Submit</button>
+                {done && <p>Thank you for your message!</p>}
               </div>
             </fieldset>
           </form>
@@ -121,15 +84,15 @@ const Contact = ({ data }) => {
           <div className="widget widget_contact">
             <h4>Address and Phone</h4>
             <p className="address">
-              {contactName}
+             Denis Wachira
               <br />
-              {contactEmail}
+              deniswachira77@gmail.com
               <br />
               <br />
-              {street} <br />
-              {city}, {state} {zip}
+              Embu <br />
+              Embu, Kenya 60100
               <br />
-              <span>{phone}</span>
+              <span>+254745086753</span>
             </p>
           </div>
         </aside>
