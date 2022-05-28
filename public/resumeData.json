@@ -122,6 +122,12 @@
         "category": "SPR",
         "image": "showcase.png",
         "url": "https://nfts-marketplace-showcase.vercel.app/"
+      },
+      {
+        "title": "My-Blog-Template(React)",
+        "category": "SPR",
+        "image": "blog.PNG",
+        "url": "https://my-blog-design.vercel.app/"
       }
     ]
   },
