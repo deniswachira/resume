@@ -104,7 +104,12 @@
   },
   "portfolio": {
     "projects": [
-      
+      {
+        "title": "Fitness Club (ReactJS)",
+        "category": "SPR",
+        "image": "fitness.png",
+        "url": "https://fit-club-three.vercel.app/"
+      },
       {
         "title": "Covid-19-Tracker(React + Firebase)",
         "category": "SPR",

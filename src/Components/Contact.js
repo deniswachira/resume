@@ -7,8 +7,9 @@ const formRef = useRef();
 const [done, setDone] = useState(false)
 const handleSubmit = (e) => {
   e.preventDefault();
-
+  
   emailjs.sendForm('service_nt4yi8l', 'template_4qwtpkm', formRef.current, 'NWuZWqUX3JfozkOPW')
+  // e.target.reset()
       .then((result) => {
           console.log(result.text);
           setDone(true);
