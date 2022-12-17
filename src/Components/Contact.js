@@ -69,7 +69,7 @@ const handleSubmit = (e) => {
 
               <div>
                 <button >Submit</button>
-                {done && <p>Thank you for your message!</p>}
+                {done && <p>Thank you for your message! will get in touch soon</p>}
               </div>
             </fieldset>
           </form>
