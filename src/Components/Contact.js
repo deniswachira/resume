@@ -77,7 +77,7 @@ const handleSubmit = (e) => {
 
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
+            <h4>Address ➡️ Phone</h4>
             <p className="address">
              Denis Wachira
               <br />
@@ -85,7 +85,7 @@ const handleSubmit = (e) => {
               <br />
               <br />
               Embu <br />
-              Embu, Kenya 60100
+              Embu, Kenya 1112-60100
               <br />
               <span>+254745086753</span>
             </p>
