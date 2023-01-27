@@ -17,7 +17,6 @@
     "website": "https://www.linkedin.com/in/denis-wachira/",
     "resumedownload": "https://1drv.ms/b/s!Ats52FTl3salgYQCXVTp8bc2sCL00A?e=4v6ks8",
     "social": [
-     
       {
         "name": "facebook",
         "url": "https://web.facebook.com/mr.deniswachira/",
@@ -94,8 +93,7 @@
       {
         "name": "HTML & CSS",
         "level": "95%"
-      }
-      ,
+      },
       {
         "name": "MYSQL",
         "level": "95%"
@@ -115,7 +113,7 @@
         "category": "SPR",
         "image": "covid19tracker.png",
         "url": "https://covid-19-tracker-75e50.web.app/"
-      },   
+      },
       {
         "title": "Modern-Real-Estate(NextJS + Rapid APIs)",
         "category": "SPR",
@@ -133,6 +131,12 @@
         "category": "SPR",
         "image": "blog.PNG",
         "url": "https://my-blog-design.vercel.app/"
+      },
+      {
+        "title": "Udhamini-Web App(ReactJs + DaisyUI)",
+        "category": "SPR",
+        "image": "udhamini.PNG",
+        "url": "https://udhaminischolarships-cae2exbygfafa7fm.z01.azurefd.net/"
       }
     ]
   },
